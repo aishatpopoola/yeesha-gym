@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 
-import HeroBannerImage from '../assets/images/banner.png';
+// import HeroBannerImage from '../assets/images/banner.png';
 
 const HeroBanner = () => (
   <Box
@@ -58,11 +58,11 @@ const HeroBanner = () => (
     >
       Exercise
     </Typography>
-    <img
+    {/* <img
       src={HeroBannerImage}
       alt="banner"
       className="hero-banner-img"
-    />
+    /> */}
 
   </Box>
 );
